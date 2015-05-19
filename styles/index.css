@@ -1,0 +1,90 @@
+html { 
+background-color: white;
+color: black;
+background: url("../images/background.png") no-repeat center bottom fixed; 
+-webkit-background-size: contain;
+-moz-background-size: contain;
+-o-background-size: contain;
+background-size: contain;
+}
+
+body{
+	font-family:"Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	overflow: hidden;
+	text-align: center;
+}
+
+.ultraLight{
+	font-weight: 100;
+}
+
+.thin{
+	font-weight: 200;
+}
+
+.margined-top{
+	margin-top: 16%;
+}
+
+.bigger{
+	font-size: 4em;
+}
+
+.navbar-fixed-bottom{
+	left: 40%;
+	bottom: 5%;
+}
+
+
+@media (max-width: 768px) {  
+
+	html{
+		background-color: black;
+		color: white;
+	}
+
+	#mainDiv{
+		background-color: black;
+		color:white;
+	}
+
+	.margined-top{
+		margin-top: 40%;
+	}
+
+	.bigger{
+		font-size: 2.5em;
+	}
+
+	#mainDiv h3{
+		font-size: 1.5em;
+	}
+
+	.thin{
+		font-size: 1em;
+		font-weight: 100;
+	}
+
+	.navbar-fixed-bottom{
+		left: 0%;
+		bottom: %;
+
+	}
+}
+
+@media (min-width: 1200px){
+
+	.bigger{
+		font-size: 5em;
+	}
+
+	#mainDiv h3{
+		font-size: 2.5em;
+	}
+
+	#mainDiv p{
+		font-size: 1.5em;
+	}
+
+}
