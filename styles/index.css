@@ -1,7 +1,7 @@
 html { 
 background-color: white;
 color: black;
-background: url("../images/background.png") no-repeat center bottom fixed; 
+/*background: url("../images/background.png") no-repeat center bottom fixed; */
 -webkit-background-size: contain;
 -moz-background-size: contain;
 -o-background-size: contain;
@@ -13,6 +13,12 @@ body{
 	font-weight: 200;
 	overflow: hidden;
 	text-align: center;
+	background-color: transparent;
+}
+
+#particles-js{
+	z-index: -1;
+	background-color: transparent;
 }
 
 #mainDiv{
@@ -36,7 +42,7 @@ body{
 }
 
 .navbar-fixed-bottom{
-	left: 40%;
+/*	left: 40%;*/
 	bottom: 5%;
 }
 
@@ -44,13 +50,13 @@ body{
 @media (max-width: 768px) {  
 
 	html{
-		background-color: black;
-		color: white;
+		/*background-color: black;
+		color: white;*/
 	}
 
 	#mainDiv{
-		background-color: black;
-		color:white;
+		/*background-color: black;
+		color:white;*/
 	}
 
 	.margined-top{
